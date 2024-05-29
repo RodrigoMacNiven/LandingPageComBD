@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    color: #224957;
+}
+
+.darkMode{
+    background-color: #093545;
+    color: #FFFFFF;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.btnPrimary{
+    width: 300px;
+    height: 45px;
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #224957;
+}
+
+.darkMode .btnPrimary{
+    width: 300px;
+    height: 42.93px;
+    background: #033eb0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.btnSecondary{
+    width: 300px;
+    height: 45px;
+    border: 2px solid #224957;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+}
+
+input{
+    width: 300px;
+    height: 42.93px;
+    background: #224957;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    padding-left: 10px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

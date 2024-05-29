@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#vectorImage{
+    background-image: url('../imagens/vector.svg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#darkModeBtn{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    border: none;
+    background-color: transparent;
+}
+
+#bookImage{
+    background-image: url('../imagens/ebook.svg');
+    width: 100%
+    height 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formsEbook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#formsEbook *{
+    margin-bottom: 15px;
+}
+
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.btnPrimary:hover{
+    background-color: #114ec9;
+}
